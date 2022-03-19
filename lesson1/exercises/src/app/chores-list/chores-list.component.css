@@ -1,0 +1,16 @@
+.chores {
+    color: rgb(174, 135, 182);
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+.chores li {
+    color: rgb(243, 210, 99);
+    font-style: italic;
+}
+
+h3 {
+    text-decoration: underline;
+    padding-left: 26px;
+}
+
