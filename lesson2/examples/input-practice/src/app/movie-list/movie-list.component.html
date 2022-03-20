@@ -4,5 +4,8 @@
        <li *ngFor ="let movie of movies">{{movie}}</li>
     </ol>
     <hr>
-
+    <input (keyup)="empty=false;duplicate=false" #newMovie (keyup.enter)="addMovie(newMovie.value); newMovie.value=''"   type="text" placeholder="Enter Movie Title here"/>
+    <button (click)="addMovie(newMovie.value); newMovie.value=''">Add</button>
+    <h3 class="warning" *ngIf = "empty==true">Entry must not be empty.</h3>
+    <h3 class="warning" *ngIf = "duplicate==true">The title is already in the list</h3>
  </div>
