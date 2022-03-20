@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    color: rgb(54, 49, 104);
+}
+
+.list {
+    border: 5px black double;
+    padding: 15px;
+}
+
+div {
+    font-family: Arial Black;
+}

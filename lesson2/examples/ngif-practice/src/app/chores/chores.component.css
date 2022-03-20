@@ -6,13 +6,31 @@
     color: #3c79b8;
 }
 
-h3 {
+h3, p, h1 {
     text-align: center;
 }
 
 img {
-    max-width: 15%;
+    max-width: 60%;
     height: auto;
     display: block;
     margin: auto;
+}
+
+.iceCream {
+    color: rgb(201, 83, 37);
+}
+
+.treat {
+    color: rgb(98, 182, 43);
+}
+
+.warning {
+    font-family: impact;
+    font-size: 25px;
+    color: rgb(255, 102, 0);
+}
+
+.Notyet {
+    color:rgb(47, 124, 64);
 }
