@@ -7,13 +7,14 @@ import { CrewComponent } from './crew/crew.component';
 import { EquipmentComponent } from './equipment/equipment.component';
 import { ExperimentsComponent } from './experiments/experiments.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CrewComponent,
     EquipmentComponent,
-    ExperimentsComponent
+    ExperimentsComponent,
   ],
   imports: [
     BrowserModule

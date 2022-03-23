@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
    selector: 'skill-set',
    templateUrl: './skill-set.component.html',
@@ -11,6 +12,7 @@ export class SkillSetComponent implements OnInit {
    alternateColor: string = 'black';
    bulletType: string = 'A';
    changeColor: boolean = true;
+   reverse: string = "reverse";
 
    constructor() { }
 

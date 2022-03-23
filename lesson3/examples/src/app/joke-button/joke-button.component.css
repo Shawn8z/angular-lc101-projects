@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+.mocking-style {
+    color: red;
+    font-size: 30px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gold-style {
+    background-color: goldenrod;
+}

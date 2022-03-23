@@ -1,0 +1,17 @@
+<h1>Joke Buttons</h1>
+<div class="button1" (mouseout)="active = true">
+    <button  [disabled]="!active" (mouseover)="active = false" [class.gold-style]="active">Frustraion Incarnate!</button>
+</div>
+<hr>
+
+<div [align]="location" >
+    <button (mouseover)="shiftLocation(location)" (click)="defeat = true; derpFace = false">Catch Me!</button>
+    <div>
+        <p *ngIf="mockText">Lol you suck :b</p>
+        <p *ngIf="usuck" [class.mocking-style] = "usuck">can't touch this ( ͡° ͜ʖ ͡°)</p>    
+    </div>
+    
+    <img *ngIf="lolFace && !noText" src="https://pbs.twimg.com/profile_images/3070594429/0ab6d6b7523813ad9799f51b7eac538b.png" alt="FIX UR LINK"/>
+    <img *ngIf="derpFace && !noText" src="https://images6.fanpop.com/image/photos/40700000/0967d8932f9d94acccdaded0c63388a9-showing-post-media-for-cartoon-derp-face-meme-wwwcartoonsmixcom-car-mist-village-40741887-480-360.jpg" alt="FIX UR LINK"/>
+    <img *ngIf="defeat && !noText" style="width: 300px" src="https://i.pinimg.com/originals/51/d5/e2/51d5e25b4017dd4ba1a5c4c66a35184a.png" alt="FIX UR LINK"/>
+</div>
